@@ -1,12 +1,12 @@
 Simple Dark Theme:
   # Header:
-  app-header-background-color: rgb(23, 23, 23)
+  app-header-background-color: rgb(138, 180, 248)
   app-header-text-color: rgb(198, 203, 210)
   # Main Interface Colors
   primary-color: rgb(138, 180, 248)
   light-primary-color: var(--primary-color)
-  primary-background-color: rgb(23, 23, 23)
-  secondary-background-color: rgb(32, 33, 36)
+  primary-background-color: var(--primary-color)
+  secondary-background-color: var(--primary-color)
   divider-color: var(--primary-background-color)
   accent-color: rgb(138, 180, 248)
   # Text
@@ -17,7 +17,7 @@ Simple Dark Theme:
   # Sidebar Menu
   sidebar-icon-color: rgb(169, 177, 188)
   sidebar-text-color: rgb(198, 203, 210)
-  sidebar-background-color: rgb(32, 33, 36)
+  sidebar-background-color: var(--primary-color)
   sidebar-selected-background-color: var(--primary-background-color)
   sidebar-selected-icon-color: rgb(138, 180, 248)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
@@ -61,12 +61,12 @@ Simple Dark Theme:
   paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
   # Table
   table-row-background-color: var(--primary-background-color)
-  table-row-alternative-background-color: var(--secondary-background-color)
+  table-row-alternative-background-color: var(--label-badge-yellow)
   data-table-background-color: var(--primary-background-color)
   mdc-checkbox-unchecked-color: rgb(169, 177, 188)
   # Dropdowns
-  material-background-color: var(--secondary-background-color)
+  material-background-color: var(--primary-background-color)
   material-secondary-background-color: var(--secondary-background-color)
   mdc-theme-surface: var(--primary-background-color)
   # Pre/Code
-  markdown-code-background-color: rgb(23, 23, 23)
+  markdown-code-background-color: var(--primary-color)
