@@ -70,3 +70,4 @@ Simple Dark Theme:
   mdc-theme-surface: var(--primary-background-color)
   # Pre/Code
   markdown-code-background-color: rgb(23, 23, 23)
+  app-header-edit-background-color: rgb(50, 50, 50)
