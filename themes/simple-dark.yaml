@@ -2,7 +2,7 @@ Simple Dark Theme:
   # Main Interface Colors
   primary-color: '#ffc400'
   light-primary-color: rgb(200, 200, 200)
-  primary-background-color: rgb(1, 1, 1)
+  primary-background-color: rgb(15, 15, 15)
   secondary-background-color: rgb(20, 20, 20)
   divider-color: var(--primary-background-color)
   accent-color: var(--primary-color)
