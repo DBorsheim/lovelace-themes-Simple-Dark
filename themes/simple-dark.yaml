@@ -2,8 +2,8 @@ Simple Dark Theme:
   # Main Interface Colors
   primary-color: '#ffc400'
   light-primary-color: rgb(200, 200, 200)
-  primary-background-color: rgb(18, 18, 18)
-  secondary-background-color: rgb(30, 30, 30)
+  primary-background-color: rgb(1, 1, 1)
+  secondary-background-color: rgb(20, 20, 20)
   divider-color: var(--primary-background-color)
   accent-color: var(--primary-color)
   # Text
@@ -70,4 +70,3 @@ Simple Dark Theme:
   mdc-theme-surface: var(--primary-background-color)
   # Pre/Code
   markdown-code-background-color: rgb(23, 23, 23)
-  app-header-edit-background-color: rgb(50, 50, 50)
