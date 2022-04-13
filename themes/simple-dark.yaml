@@ -1,9 +1,9 @@
 Simple Dark Theme:
   # Main Interface Colors
-  primary-color: '#ffc400'
+  primary-color: "#ffc400"
   light-primary-color: rgb(200, 200, 200)
   primary-background-color: rgb(15, 15, 15)
-  secondary-background-color: rgb(20, 20, 20)
+  secondary-background-color: rgb(25, 25, 25)
   divider-color: var(--primary-background-color)
   accent-color: var(--primary-color)
   # Text
@@ -14,6 +14,7 @@ Simple Dark Theme:
   # Header:
   app-header-background-color: var(--secondary-background-color)
   app-header-text-color: var(--primary-text-color)
+  ha-panel-config-app-header-border-bottom: 10px solid var(--divider-color)
   # Sidebar Menu
   sidebar-icon-color: rgb(159, 159, 159)
   sidebar-text-color: var(--light-primary-color)
@@ -44,7 +45,7 @@ Simple Dark Theme:
   label-badge-gray: rgb(95, 98, 103)
   # Cards
   card-background-color: var(--secondary-background-color)
-  ha-card-border-radius: "8px"
+  ha-card-border-radius: "16px"
   ha-card-box-shadow: 1px 1px 5px 0px rgb(0, 0, 0, .3)
   paper-dialog-background-color: var(--card-background-color)
   paper-listbox-background-color: var(--card-background-color)
@@ -71,3 +72,12 @@ Simple Dark Theme:
   # Pre/Code
   markdown-code-background-color: rgb(23, 23, 23)
   app-header-edit-background-color: rgb(50, 50, 50)
+
+  input-fill-color: rgba(0, 0, 0, 0)
+  input-ink-color: rgba(255, 255, 255, 0.87)
+  input-idle-line-color: rgba(0, 0, 0, 0)
+  input-hover-line-color: rgba(0, 0, 0, 0)
+  mdc-ripple-color: rgba(255, 255, 255, 0.3)
+  input-label-ink-color: rgba(255, 255, 255, 0.6)
+  input-dropdown-icon-color: rgba(255, 255, 255, 0.6)
+  input-disabled-fill-color: rgba(0, 0, 0, 0)
