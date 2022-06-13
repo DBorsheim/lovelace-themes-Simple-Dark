@@ -88,9 +88,6 @@ Simple Dark Theme:
 
   mdc-shape-small: 10px
 
-  # HA variables
-  ha-card-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.16)
-  ha-card-border-radius: 12px
   # Mushroom layout
   mush-spacing: 12px
   # Title
