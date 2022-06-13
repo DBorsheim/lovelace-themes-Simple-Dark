@@ -4,7 +4,7 @@ Simple Dark Theme:
   light-primary-color: rgb(200, 200, 200)
   primary-background-color: rgb(15, 15, 15)
   secondary-background-color: rgb(25, 25, 25)
-  divider-color: var(--primary-background-color)
+  divider-color: rgba(0, 0, 0, 0)
   accent-color: var(--primary-color)
   # Text
   primary-text-color: rgb(226, 226, 226)
@@ -12,7 +12,7 @@ Simple Dark Theme:
   text-primary-color: var(--secondary-background-color)
   disabled-text-color: rgba(184, 190, 199, 0.4)
   # Header:
-  app-header-background-color: var(--secondary-background-color)
+  app-header-background-color: var(--primary-background-color)
   app-header-text-color: var(--primary-text-color)
   ha-panel-config-app-header-border-bottom: 10px solid var(--divider-color)
   # Sidebar Menu
@@ -73,7 +73,7 @@ Simple Dark Theme:
   markdown-code-background-color: rgb(23, 23, 23)
   app-header-edit-background-color: rgb(50, 50, 50)
 
-  input-fill-color: rgba(0, 0, 0, 0)
+  input-fill-color: rgb(250 250 250 / 2%)
   input-ink-color: rgba(255, 255, 255, 0.87)
   input-idle-line-color: rgba(0, 0, 0, 0)
   input-hover-line-color: rgba(0, 0, 0, 0)
@@ -81,3 +81,111 @@ Simple Dark Theme:
   input-label-ink-color: rgba(255, 255, 255, 0.6)
   input-dropdown-icon-color: rgba(255, 255, 255, 0.6)
   input-disabled-fill-color: rgba(0, 0, 0, 0)
+
+  #mdc-text-field-border: solid
+
+  app-header-selection-bar-color: var(--primary-color)
+
+  mdc-shape-small: 10px
+
+  # HA variables
+  ha-card-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.16)
+  ha-card-border-radius: 12px
+  # Mushroom layout
+  mush-spacing: 12px
+  # Title
+  mush-title-padding: 16px 0px 10px
+  mush-title-spacing: 12px
+  mush-title-font-size: 30px
+  mush-title-font-weight: bold
+  mush-title-line-height: .5
+  # Subtitle
+  mush-subtitle-font-size: 12px
+  mush-subtitle-font-weight: bold
+  mush-subtitle-line-height: 1.2
+  # Card
+  mush-card-primary-font-size: 13px
+  mush-card-secondary-font-size: 10px
+  mush-card-primary-font-weight: bold
+  mush-card-secondary-font-weight: bold
+  mush-card-primary-line-height: 1.5
+  mush-card-secondary-line-height: 1.5
+  # Chip
+  mush-chip-spacing: 8px
+  mush-chip-padding: 0 0.25em
+  mush-chip-height: 36px
+  mush-chip-border-radius: 18px
+  mush-chip-font-size: 0.3em
+  mush-chip-font-weight: bold
+  mush-chip-icon-size: 0.5em
+  mush-chip-avatar-padding: 0.1em
+  mush-chip-avatar-border-radius: 50%
+  mush-chip-box-shadow: var(--ha-card-box-shadow)
+  mush-chip-background: var(--ha-card-background)
+  # Control
+  mush-control-border-radius: 12px
+  mush-control-height: 42px
+  mush-control-button-ratio: .75
+  mush-control-icon-size: 0.5em
+  # Slider
+  mush-slider-threshold: 10
+  # Badge
+  mush-badge-size: 16px
+  mush-badge-icon-size: 0.75em
+  mush-badge-border-radius: 50%
+  # Icon
+  mush-icon-border-radius: 50%
+  mush-icon-size: 50px
+  mush-icon-symbol-size: 0.6em
+  # Colors
+  mush-rgb-red: 244, 67, 54
+  mush-rgb-pink: 233, 30, 99
+  mush-rgb-purple: 156, 39, 176
+  mush-rgb-deep-purple: 103, 58, 183
+  mush-rgb-indigo: 63, 81, 181
+  mush-rgb-blue: 80, 130, 250
+  mush-rgb-light-blue: 3, 169, 244
+  mush-rgb-cyan: 0, 188, 212
+  mush-rgb-teal: 0, 150, 136
+  mush-rgb-green: 76, 175, 80
+  mush-rgb-light-green: 139, 195, 74
+  mush-rgb-lime: 205, 220, 57
+  mush-rgb-yellow: 255, 235, 59
+  mush-rgb-amber: 255, 193, 7
+  mush-rgb-orange: 255, 152, 0
+  mush-rgb-deep-orange: 255, 87, 34
+  mush-rgb-brown: 121, 85, 72
+  mush-rgb-grey: 158, 158, 158
+  mush-rgb-blue-grey: 96, 125, 139
+  mush-rgb-black: 0, 0, 0
+  mush-rgb-white: 255, 255, 255
+  mush-rgb-off-white: 255, 240, 214
+      
+  mush-rgb-info: var(--mush-rgb-blue)
+  mush-rgb-success: var(--mush-rgb-green)
+  mush-rgb-warning: var(--mush-rgb-orange)
+  mush-rgb-danger: var(--mush-rgb-red)
+
+  mush-rgb-state-fan: var(--mush-rgb-off-white)
+  mush-rgb-state-light: var(--mush-rgb-off-white)
+  mush-rgb-state-entity: var(--mush-rgb-blue)
+  mush-rgb-state-switch: var(--mush-rgb-blue)
+
+  mush-rgb-state-alarm-disarmed: var(--mush-rgb-info)
+  mush-rgb-state-alarm-armed: var(--mush-rgb-success)
+  mush-rgb-state-alarm-triggered: var(--mush-rgb-danger)
+
+  mush-rgb-state-person-home: var(--mush-rgb-success)
+  mush-rgb-state-person-not-home: var(--mush-rgb-danger)
+  mush-rgb-state-person-zone: var(--mush-rgb-info)
+  mush-rgb-state-person-unknown: var(--mush-rgb-grey)
+  
+  mush-rgb-state-cover-open: var(--mush-rgb-blue)
+  mush-rgb-state-cover-closed: var(--mush-rgb-disabled)
+  
+  # You must keep this to support light/dark theme
+  modes:
+      light: 
+          mush-rgb-disabled: 189, 189, 189
+      dark:
+          mush-rgb-disabled: 50, 50, 50
